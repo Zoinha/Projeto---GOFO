@@ -2,9 +2,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -21,8 +21,8 @@ jobs:
         java-distribution: temurin
         maven-version: 3.8.7
 
-    - name: Build with Maven
+     - name: Build with Maven
       run: mvn -B clean install
 
-    - name: Run tests
-      run: mvn -B testS
+    - name: Run specific test
+      run: mvn -B test -Dtest=AdministratorTest
