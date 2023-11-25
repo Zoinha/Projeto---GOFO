@@ -30,7 +30,7 @@
     </properties>
 
     <build>
-        <sourceDirectory>GOFO_Implementation/src/codigo</sourceDirectory>
+        <sourceDirectory>GOFO_Implementation/src</sourceDirectory>
         <testSourceDirectory>GOFO_Implementation/src/test/java</testSourceDirectory>
         <plugins>
             <plugin>
