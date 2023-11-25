@@ -25,4 +25,4 @@ jobs:
       run: mvn compile
 
     - name: Run specific test
-      run: mvn -e -X test -Dtest=AdministratorTest -Dsurefire.failIfNoSpecifiedTests=false
+      run: mvn test -Dtest=AdministratorTest
