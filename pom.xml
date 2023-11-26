@@ -30,8 +30,8 @@
     </properties>
 
     <build>
-        <sourceDirectory>GOFO_Implementation/src</sourceDirectory>
-        <testSourceDirectory>GOFO_Implementation/src/test/java</testSourceDirectory>
+        <sourceDirectory>GOFO Implementation/src</sourceDirectory>
+        <testSourceDirectory>GOFO Implementation/src/test/java</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
