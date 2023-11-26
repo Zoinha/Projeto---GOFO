@@ -24,5 +24,8 @@ jobs:
     - name: Compilando...
       run: mvn compile
 
-    - name: Run specific test
-      run: mvn test -Dtest=AdministratorTest
+    - name: Build with Maven
+      run: mvn -B clean install
+
+    - name: Run tests
+      run: mvn -B test
